@@ -5,6 +5,44 @@
  */
 class Controller extends CController
 {
+	protected $assetsUrl;
+	
+	public function beforeRender($view)
+	{
+		$this->_loadDefaultScripts();
+		
+		return true;
+	}
+	
+	private function _loadDefaultScripts()
+	{
+		try
+		{
+			$clientScript = Yii::app()->clientScript;
+				
+			$clientScript->registerScriptFile($this->getAssetsUrl() . '/jquery/jquery.js', CClientScript::POS_END);
+			$clientScript->registerScriptFile($this->getAssetsUrl() . '/jui/js/jquery-ui.min.js', CClientScript::POS_END);
+			
+			$clientScript->registerCssFile($this->getAssetsUrl() . '/css/reset.css');
+			$clientScript->registerCssFile($this->getAssetsUrl() . '/css/main.css');
+		}
+		catch (Exception $e)
+		{
+			throw new Exception('N‹o foi poss’vel carregar os assets: '. $e->getMessage());
+		}
+			
+	}
+	
+	public function getAssetsUrl()
+	{
+		if($this->assetsUrl === null)
+		{
+			$this->assetsUrl = Yii::app()->getAssetManager()->publish(Yii::getPathOfAlias('application.assets'));
+		}
+		
+		return $this->assetsUrl;
+	}
+	
 	/**
 	 * @var string the default layout for the controller view. Defaults to '//layouts/column1',
 	 * meaning using a single column layout. See 'protected/views/layouts/column1.php'.
