@@ -1,0 +1,21 @@
+body {
+	background-color: #f2f2f0;
+}
+
+#page {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#page header {
+	height: 150px;
+}
+
+#page header #menu-wrapper #logo {
+	margin: 10px 0;
+}
+
+#page header #search-wrapper input#search-content  {
+	height: 40px;
+	width: 630px;
+}
