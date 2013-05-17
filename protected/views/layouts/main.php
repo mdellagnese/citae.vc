@@ -16,27 +16,29 @@
 	<div id="header">
 		<div id="menu-wrapper">
 			<div id="logo"><?php echo CHtml::image($this->assetsUrl . '/images/header/logo-citae.png') ?></div>
+			<div id="mainmenu">
+				<?php $this->widget('zii.widgets.CMenu',array(
+					'items'=>array(
+						array('label'=>'Sobre', 'url'=>array('/sobre')),
+						array('label'=>'Se›es', 'url'=>array('/secoes')),
+						array('label'=>'Livros', 'url'=>array('/livros')),
+						array('label'=>'Revisores', 'url'=>array('/revisores')),
+						array('label'=>'Gr‡ficas', 'url'=>array('/graficas'))
+					),
+				)); ?>
+			</div>
 		</div>
 		<div id="search-wrapper">
 			<div class="search-content">
 				<?php echo CHtml::textField('search-content');?>
 			</div>
+			<div class="scaled-background"></div>
 		</div>
 	</div><!-- header -->
-
-	<div id="mainmenu">
-		<?php $this->widget('zii.widgets.CMenu',array(
-			'items'=>array(
-				array('label'=>'Home', 'url'=>array('/site/index')),
-				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
-				array('label'=>'Contact', 'url'=>array('/contact')),
-				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
-			),
-		)); ?>
-	</div><!-- mainmenu -->
-
-	<?php echo $content; ?>
+	
+	<div id="content">
+		<?php echo $content; ?>
+	</div>
 
 	<div class="clear"></div>
 

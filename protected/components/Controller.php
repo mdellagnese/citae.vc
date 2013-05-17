@@ -22,6 +22,7 @@ class Controller extends CController
 				
 			$clientScript->registerScriptFile($this->getAssetsUrl() . '/jquery/jquery.js', CClientScript::POS_END);
 			$clientScript->registerScriptFile($this->getAssetsUrl() . '/jui/js/jquery-ui.min.js', CClientScript::POS_END);
+			$clientScript->registerScriptFile($this->getAssetsUrl() . '/js/main.js', CClientScript::POS_END);
 			
 			$clientScript->registerCssFile($this->getAssetsUrl() . '/css/reset.css');
 			$clientScript->registerCssFile($this->getAssetsUrl() . '/css/main.css');
