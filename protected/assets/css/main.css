@@ -7,39 +7,66 @@ body {
 	margin: 0 auto;
 }
 
-#page #header {
+#page header {
 	height: 150px;
 }
 
 
 /* CABE‚ALHO */
 
-#page #header #menu-wrapper #logo {
+#page header #menu-wrapper #logo {
 	margin: 10px 0;
 }
 
-#page #header #search-wrapper {
+#page header #search-wrapper {
 	position: relative;
 	display: table;
 }
 
-#page #header #search-wrapper div.search-content  {
+#page header #search-wrapper .search-icon {
+	position: absolute;
+	left: 10px;
+	margin: 0.6em 0;
+}
+
+#page header #search-wrapper div.search-content  {
 	z-index: 10;
 	position: absolute;
 	left: 0;
 	margin: 1em 0;
 }
 
-#page #header #search-wrapper input#search-content  {
+#page header #search-wrapper input#search-content  {
 	height: 40px;
-	width: 630px;
+	width: 585px;
+	font-size: 16px;
+	padding: 0 40px;
+	color: #989896;
 }
 
-#page #header #search-wrapper div.scaled-background {
+#page header #search-wrapper div.scaled-background {
 	background: url(../images/header/barBusca.png) repeat-x #429cd1;
 	height: 80px;
 	z-index: 5;
 	position: absolute;
 	left: 0;
 	top: 0;
+}
+
+#page header #mainmenu ul {
+	height: 45px;
+}
+
+#page header #mainmenu ul li {
+	float:left;
+	height: 100%;
+	padding: 0 5px;
+	text-align: center;
+	line-height: 45px;
+	text-decoration: none;
+}
+
+#page header #mainmenu ul li a {
+	text-decoration: none;
+	color: #868789;
 }

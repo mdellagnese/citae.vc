@@ -13,40 +13,40 @@
 
 <div class="container" id="page">
 
-	<div id="header">
+	<header>
 		<div id="menu-wrapper">
 			<div id="logo"><?php echo CHtml::image($this->assetsUrl . '/images/header/logo-citae.png') ?></div>
 			<div id="mainmenu">
-				<?php $this->widget('zii.widgets.CMenu',array(
+				
+				<?php 
+				$this->widget('zii.widgets.CMenu',array(
 					'items'=>array(
-						array('label'=>'Sobre', 'url'=>array('/sobre')),
-						array('label'=>'Se›es', 'url'=>array('/secoes')),
-						array('label'=>'Livros', 'url'=>array('/livros')),
+						array('label'=>'Sobre', 	'url'=>array('/sobre')),
+						array('label'=>'Se›es', 	'url'=>array('/secoes',)),
+						array('label'=>'Livros', 	'url'=>array('/livros')),
 						array('label'=>'Revisores', 'url'=>array('/revisores')),
-						array('label'=>'Gr‡ficas', 'url'=>array('/graficas'))
+						array('label'=>'Gr‡ficas',	'url'=>array('/graficas'))
 					),
 				)); ?>
 			</div>
 		</div>
 		<div id="search-wrapper">
 			<div class="search-content">
+				<?php echo CHtml::image($this->assetsUrl . '/images/header/busca.png', '', array('class'=>'search-icon'));?>
 				<?php echo CHtml::textField('search-content');?>
 			</div>
 			<div class="scaled-background"></div>
 		</div>
-	</div><!-- header -->
+	</header><!-- header -->
 	
-	<div id="content">
-		<?php echo $content; ?>
-	</div>
+	<?php echo $content; ?>
 
 	<div class="clear"></div>
 
-	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
+	<footer>
+		Copyright &copy; <?php echo date('Y'); ?> by Citae.vc<br/>
 		All Rights Reserved.<br/>
-		<?php echo Yii::powered(); ?>
-	</div><!-- footer -->
+	</footer><!-- footer -->
 
 </div><!-- page -->
 

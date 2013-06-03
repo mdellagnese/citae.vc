@@ -38,7 +38,7 @@ class Controller extends CController
 	{
 		if($this->assetsUrl === null)
 		{
-			$this->assetsUrl = Yii::app()->getAssetManager()->publish(Yii::getPathOfAlias('application.assets'));
+			$this->assetsUrl = Yii::app()->getAssetManager()->publish(Yii::getPathOfAlias('application.assets'), false, -1, YII_DEBUG);
 		}
 		
 		return $this->assetsUrl;
