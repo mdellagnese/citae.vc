@@ -779,3 +779,202 @@ Stack trace:
 #11 {main}
 REQUEST_URI=/citae.vc/
 ---
+2013/06/03 01:44:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sobre".' in /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php:483
+Stack trace:
+#0 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php(270): CController->missingAction('sobre')
+#1 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(282): CController->run('sobre')
+#2 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(141): CWebApplication->runController('site/sobre')
+#3 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/mdellagnese/Google Drive/Desenvolvimento/citae.vc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/citae.vc/sobre
+HTTP_REFERER=http://localhost/citae.vc/livros
+---
+2013/06/03 01:45:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sobre".' in /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php:483
+Stack trace:
+#0 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php(270): CController->missingAction('sobre')
+#1 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(282): CController->run('sobre')
+#2 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(141): CWebApplication->runController('site/sobre')
+#3 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/mdellagnese/Google Drive/Desenvolvimento/citae.vc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/citae.vc/sobre
+HTTP_REFERER=http://localhost/citae.vc/livros
+---
+2013/06/03 01:47:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sobre".' in /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php:483
+Stack trace:
+#0 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php(270): CController->missingAction('sobre')
+#1 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(282): CController->run('sobre')
+#2 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(141): CWebApplication->runController('site/sobre')
+#3 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/mdellagnese/Google Drive/Desenvolvimento/citae.vc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/citae.vc/sobre
+HTTP_REFERER=http://localhost/citae.vc/sobre
+---
+2013/06/03 01:47:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "secoes".' in /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php:483
+Stack trace:
+#0 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php(270): CController->missingAction('secoes')
+#1 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(282): CController->run('secoes')
+#2 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(141): CWebApplication->runController('site/secoes')
+#3 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/mdellagnese/Google Drive/Desenvolvimento/citae.vc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/citae.vc/secoes
+HTTP_REFERER=http://localhost/citae.vc/sobre
+---
+2013/06/03 01:47:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sobre".' in /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php:483
+Stack trace:
+#0 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php(270): CController->missingAction('sobre')
+#1 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(282): CController->run('sobre')
+#2 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(141): CWebApplication->runController('site/sobre')
+#3 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/mdellagnese/Google Drive/Desenvolvimento/citae.vc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/citae.vc/sobre
+HTTP_REFERER=http://localhost/citae.vc/secoes
+---
+2013/06/03 01:49:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sobre".' in /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php:483
+Stack trace:
+#0 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php(270): CController->missingAction('sobre')
+#1 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(282): CController->run('sobre')
+#2 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(141): CWebApplication->runController('site/sobre')
+#3 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/mdellagnese/Google Drive/Desenvolvimento/citae.vc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/citae.vc/sobre
+HTTP_REFERER=http://localhost/citae.vc/secoes
+---
+2013/06/03 01:50:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sobre".' in /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php:483
+Stack trace:
+#0 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php(270): CController->missingAction('sobre')
+#1 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(282): CController->run('sobre')
+#2 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(141): CWebApplication->runController('site/sobre')
+#3 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/mdellagnese/Google Drive/Desenvolvimento/citae.vc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/citae.vc/sobre
+HTTP_REFERER=http://localhost/citae.vc/secoes
+---
+2013/06/03 01:55:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sobre".' in /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php:483
+Stack trace:
+#0 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php(270): CController->missingAction('sobre')
+#1 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(282): CController->run('sobre')
+#2 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(141): CWebApplication->runController('site/sobre')
+#3 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/mdellagnese/Google Drive/Desenvolvimento/citae.vc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/citae.vc/sobre
+HTTP_REFERER=http://localhost/citae.vc/secoes
+---
+2013/06/08 13:40:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sobre".' in /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php:483
+Stack trace:
+#0 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php(270): CController->missingAction('sobre')
+#1 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(282): CController->run('sobre')
+#2 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(141): CWebApplication->runController('site/sobre')
+#3 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/mdellagnese/Google Drive/Desenvolvimento/citae.vc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/citae.vc/sobre
+---
+2013/06/17 00:54:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sobre".' in /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php:483
+Stack trace:
+#0 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php(270): CController->missingAction('sobre')
+#1 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(282): CController->run('sobre')
+#2 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(141): CWebApplication->runController('site/sobre')
+#3 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/mdellagnese/Google Drive/Desenvolvimento/citae.vc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/citae.vc/sobre
+---
+2013/06/23 16:27:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sobre".' in /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php:483
+Stack trace:
+#0 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php(270): CController->missingAction('sobre')
+#1 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(282): CController->run('sobre')
+#2 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(141): CWebApplication->runController('site/sobre')
+#3 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/mdellagnese/Google Drive/Desenvolvimento/citae.vc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/citae.vc/sobre
+---
+2013/07/12 01:02:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sobre".' in /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php:483
+Stack trace:
+#0 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php(270): CController->missingAction('sobre')
+#1 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(282): CController->run('sobre')
+#2 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(141): CWebApplication->runController('site/sobre')
+#3 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/mdellagnese/Google Drive/Desenvolvimento/citae.vc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/citae.vc/sobre
+---
+2013/07/16 00:39:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "livros".' in /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php:483
+Stack trace:
+#0 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php(270): CController->missingAction('livros')
+#1 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(282): CController->run('livros')
+#2 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(141): CWebApplication->runController('site/livros')
+#3 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/mdellagnese/Google Drive/Desenvolvimento/citae.vc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/citae.vc/livros
+---
+2013/09/29 23:47:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "secoes".' in /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php:483
+Stack trace:
+#0 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php(270): CController->missingAction('secoes')
+#1 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(282): CController->run('secoes')
+#2 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(141): CWebApplication->runController('site/secoes')
+#3 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/mdellagnese/Google Drive/Desenvolvimento/citae.vc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/citae.vc/secoes
+HTTP_REFERER=http://localhost/citae.vc/
+---
+2013/09/29 23:48:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "livros".' in /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php:483
+Stack trace:
+#0 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php(270): CController->missingAction('livros')
+#1 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(282): CController->run('livros')
+#2 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(141): CWebApplication->runController('site/livros')
+#3 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/mdellagnese/Google Drive/Desenvolvimento/citae.vc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/citae.vc/livros
+HTTP_REFERER=http://localhost/citae.vc/secoes
+---
+2013/09/29 23:48:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "revisores".' in /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php:483
+Stack trace:
+#0 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php(270): CController->missingAction('revisores')
+#1 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(282): CController->run('revisores')
+#2 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(141): CWebApplication->runController('site/revisores')
+#3 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/mdellagnese/Google Drive/Desenvolvimento/citae.vc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/citae.vc/revisores
+HTTP_REFERER=http://localhost/citae.vc/livros
+---
+2013/09/29 23:48:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sobre".' in /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php:483
+Stack trace:
+#0 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CController.php(270): CController->missingAction('sobre')
+#1 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(282): CController->run('sobre')
+#2 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/web/CWebApplication.php(141): CWebApplication->runController('site/sobre')
+#3 /Users/mdellagnese/Google Drive/Desenvolvimento/yii-framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/mdellagnese/Google Drive/Desenvolvimento/citae.vc/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/citae.vc/sobre
+HTTP_REFERER=http://localhost/citae.vc/revisores
+---
+2013/10/13 22:14:58 [error] [exception.Exception] exception 'Exception' with message 'N‹o foi poss’vel carregar os assets: CAssetManager.basePath "C:\Users\Mauricio\Google Drive\Desenvolvimento\citae.vc\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in C:\Users\Mauricio\Google Drive\Desenvolvimento\citae.vc\protected\components\Controller.php:32
+Stack trace:
+#0 C:\Users\Mauricio\Google Drive\Desenvolvimento\citae.vc\protected\components\Controller.php(12): Controller->_loadDefaultScripts()
+#1 C:\Users\Mauricio\Google Drive\Desenvolvimento\yii-framework\web\CController.php(780): Controller->beforeRender('index')
+#2 C:\Users\Mauricio\Google Drive\Desenvolvimento\citae.vc\protected\controllers\SiteController.php(32): CController->render('index')
+#3 C:\Users\Mauricio\Google Drive\Desenvolvimento\yii-framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\Users\Mauricio\Google Drive\Desenvolvimento\yii-framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Users\Mauricio\Google Drive\Desenvolvimento\yii-framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\Users\Mauricio\Google Drive\Desenvolvimento\yii-framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\Mauricio\Google Drive\Desenvolvimento\yii-framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\Users\Mauricio\Google Drive\Desenvolvimento\yii-framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\Users\Mauricio\Google Drive\Desenvolvimento\yii-framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\Users\Mauricio\Google Drive\Desenvolvimento\citae.vc\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/citae.vc/
+HTTP_REFERER=http://www.xpo.com/
+---

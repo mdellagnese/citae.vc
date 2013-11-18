@@ -2,11 +2,11 @@ if(!LAYOUT)
 	var LAYOUT = {};
 
 LAYOUT.init = function() {
-	LAYOUT.loadHeader();
+	LAYOUT.scaleWidth();
 };
 
-LAYOUT.loadHeader = function() {
-	LAYOUT.headerScaledBackgroundObj.css({
+LAYOUT.scaleWidth = function() {
+	LAYOUT.scaledObj.css({
 		width: document.width,
 		left: (LAYOUT.contentObj - document.width) / 2
 	});
@@ -18,7 +18,7 @@ $(function(){
 	LAYOUT.contentObj					= $('#content').width();
 	LAYOUT.headerObj 					= $('div#page > header');
 	LAYOUT.headerSearchContentObj 		= LAYOUT.headerObj.find('div.search-content');
-	LAYOUT.headerScaledBackgroundObj 	= LAYOUT.headerObj.find('div.scaled-background');
+	LAYOUT.scaledObj					= $('div.scaled-background');
 	
 	LAYOUT.init();
 });

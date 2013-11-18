@@ -7,11 +7,6 @@ body {
 	margin: 0 auto;
 }
 
-#page header {
-	height: 150px;
-}
-
-
 /* CABE‚ALHO */
 
 #page header #menu-wrapper #logo {
@@ -21,6 +16,7 @@ body {
 #page header #search-wrapper {
 	position: relative;
 	display: table;
+	height: 100px;
 }
 
 #page header #search-wrapper .search-icon {
@@ -60,7 +56,7 @@ body {
 #page header #mainmenu ul li {
 	float:left;
 	height: 100%;
-	padding: 0 5px;
+	padding: 0 15px;
 	text-align: center;
 	line-height: 45px;
 	text-decoration: none;
@@ -69,4 +65,38 @@ body {
 #page header #mainmenu ul li a {
 	text-decoration: none;
 	color: #868789;
+}
+
+
+/* FOOTER */
+
+footer #second-layer, footer #main-layer {
+	position: relative;
+	display: table;
+}
+
+footer #main-layer div.scaled-background {
+	background: #dfe0e2;
+	z-index: 5;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+footer #second-layer div.rights div.scaled-background {
+	background: #429cd1;
+	height: 50px;
+	z-index: 5;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+footer #second-layer div.legal div.scaled-background {
+	background: #1476b5;
+	height: 100px;
+	z-index: 5;
+	position: absolute;
+	left: 0;
+	top: 50px;
 }
